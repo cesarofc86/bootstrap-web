@@ -1,0 +1,32 @@
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    opacity: .9%; 
+}
+
+.navbar .nav-item .nav-link {
+    color: white
+}
+
+.main-header{
+    position: relative;
+    background: url(../img/pics/fondo.jpg); /*agregar imagen de fondo*/
+    background-size: cover; /*que la imagen cubra todo el espacio */
+    min-height: 400px;  /*con esto ya no sale la capa semicubierta*/
+}
+
+.background-overlay{
+    position: absolute;
+    background: rgba(48, 51, 107, .7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.form-control, .btn{
+    border-radius: 0;   /*es para quitar los bordes de los botones y cajas input*/
+}
+
+.team, footer{
+    background: #30336b
+}

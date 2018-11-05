@@ -1,0 +1,359 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOSTRAP WEBSITE</title>
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <!--ESTILO CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+    
+
+    
+</head>
+<body>
+   <!--NAVEGACION--> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container"> <!--PARA QUE TODO SE CENTRE-->
+    <a class="navbar-brand" href="/">
+        <img src="img/pics/logo3.png" alt="logo3" style="width: 30%">
+    </a>
+    <!--BARRA DE NAVEGACION CUANDO HACES LA PANTALLA MAS CHICA-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a> 
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Estudios</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    <!--CABECERA-->
+    
+    <header class="main-header">
+        <div class="background-overlay text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center" >
+                        <h1>ESTE TEXTO ESTA EN BLANCO</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, facere?</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                            MAS INFORMACION
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/slider/Javarojo.png" alt="Javarojo" class="img-fluid d-none d-sm-block"> <!--LA CLASE ES PARA QUE SEA RESPONSIVA LA IMAGEN y que se desaparesca cuando esta chica la pantalla-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--NEWLETTER-->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">  <!--para que se haga en sus columas-->
+                <div class="col-md-4"> <!--cada espacio de boostrap tiene doce columnas y con el md4 le das 4 columnas-->
+                    <input type="text" class="form-control form-control-lg"
+                    placeholder="ingresa tu nombre"> <!--es para la barra donde pones tu nombre-->
+                </div>
+                <div class="col-md-4">
+                        <input type="email" class="form-control form-control-lg"
+                        placeholder="ingresa tu correo">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary btn-lg btn-block">
+                        Suscribete
+                    </button> <!--que el boton sea largo y ocupe el ancho de todo los espacios-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!--CARACTERISTICAS-->
+
+
+<section class="py-5">  <!--ES PARA EL ESPACIADO UN PADDIN RELLENO-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card text-center border-primary">
+                    <div class="card-body">
+                        <h3>Habilidades</h3>
+                        <p>Lorem ipsum dolor sit amet. hodihfoeio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white">
+                            <div class="card-body">
+                                <h3>Cursos</h3>
+                                <p>Lorem ipsum dolor sit amet. hodihfoeio</p>
+                            </div>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="card text-center border-primary">
+                            <div class="card-body">
+                                <h3>Lenguajes</h3>
+                                <p>Lorem ipsum dolor sit amet. hodihfoeio</p>
+                            </div>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="card text-center bg-primary text-white">
+                            <div class="card-body">
+                                <h3>Idiomas</h3>
+                                <p>Lorem ipsum dolor sit amet. hodihfoeio</p>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--SEGUNDAS CARATERISTICAS-->
+
+    
+    <section class="container">
+        <div class="bg-light text-center p-4">
+            <div class="row">
+                <div class="m-auto"> <!--le agrega un margen a todos lados con el auto-->
+                    <h3>RESUMEN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione hic reiciendis ducimus, facere pariatur cupiditate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--ACORDION-->
+
+    <section class="container text-center p-5">
+        <div class="row">
+            
+    <div class="accordion m-5 text-center" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    EXPERICIA LABORAL
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    CURSOS
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    HABILIDADES
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!--TEAM-->
+
+<section class="team text-center p-5">
+    <div class="container">
+        <h1 class="text-white">Team</h1>
+        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sint odio eum amet impedit aut?</p>
+    </div>  
+    <div class="row">
+            <!--member-->
+        <div class="col-lg-3">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/pics/emoji2.png" class="img-fluid rounded-circle w-50" alt="emoji2"> <!-- para que la imgen sea redonda y w es el ancho de 50%-->
+                    <h3>heiserber</h3> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem.</p>
+                </div>
+                    <div class="d-flex flex-row justify-content-center">  <!--para que los iconos salgal alineados-->
+                        <div class="p-2">
+                        <a href="http://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="p-2">
+                        <a href="http://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="p-2">
+                        <a href="http://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/pics/emoji2.png" class="img-fluid rounded-circle w-50" alt="emoji2"> <!-- para que la imgen sea redonda y w es el ancho de 50%-->
+                        <h3>heiserber</h3> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem.</p>
+                    </div>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="p-2">
+                            <a href="http://www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook"></i></a>
+                            </div>
+                            <div class="p-2">
+                            <a href="http://www.instagram.com" target="_blank">
+                            <i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="p-2">
+                            <a href="http://www.youtube.com" target="_blank">
+                            <i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/pics/emoji2.png" class="img-fluid rounded-circle w-50" alt="emoji2"> <!-- para que la imgen sea redonda y w es el ancho de 50%-->
+                            <h3>heiserber</h3> 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem.</p>
+                        </div>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-2">
+                                <a href="http://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook"></i></a>
+                                </div>
+                                <div class="p-2">
+                                <a href="http://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="p-2">
+                                <a href="http://www.youtube.com" target="_blank">
+                                <i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+            <div class="card">
+                <div class="card-body">
+                    <img src="img/pics/emoji2.png" class="img-fluid rounded-circle w-50" alt="emoji2"> <!-- para que la imgen sea redonda y w es el ancho de 50%-->
+                    <h3>heiserber</h3> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem.</p>
+                </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="p-2">
+                        <a href="http://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="p-2">
+                        <a href="http://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="p-2">
+                        <a href="http://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-ligth py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <h3>CONTACTO</h3>
+                <p>Lorem, ipsum dolor.</p>
+                <form action="">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <i class="fas fa-user input-group-text"></i> <!--para que los inconos esten al lado de otro en boostrap busca input-group-->
+                        </div>
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-envelope input-group-text"></i> <!--para que los inconos esten al lado de otro en boostrap busca input-group-->
+                            </div>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend"> <!--para hacer lo del contacto-->
+                            <i class="fas fa-pencil-alt input-group-text"></i> <!--para que los inconos esten al lado de otro en boostrap busca input-group-->
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="escribe tu comentario" class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block">
+                        Envia tu mensaje
+                    </button>
+                </form>
+            </div>
+            <div class="col-lg-3 align-self-center">  <!--centra la imagen vertical-->
+                <img style="width: 120%" src="img/pics/logo3.png"  alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container p-3 text-white text-center">
+        <p> &copy; diamante_negro</p>
+    </div>
+</footer>
+
+    <!--BOOSTRAPJAVASCRIP-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    
+
+</body>
+</html>
